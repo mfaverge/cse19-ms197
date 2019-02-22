@@ -60,7 +60,7 @@
 	  solution at a given accuracy. We have introduced low-rank
 	  compression and new dedicated kernels that perform low-rank
 	  addition for sparse structures, while maintaning the same
-	  level of parallism than the original version of the PaStiX
+	  level of parallelism than the original version of the PaStiX
 	  solver, to take advantage of all features that were
 	  developed in previous works.
 	  <div class="row"><h1>Graph ordering and partitioning</h1>
@@ -71,29 +71,29 @@
 	  reduce this burden, we have proposed a reordering strategy
 	  to reduce the number of off-diagonal blocks in the symbolic
 	  factorization. In addition, we have studied clustering
-	  strategies for Block Low-Rank, which consist of special
-	  partitioning of separators that appear during the nested
-	  dissection.
+	  strategies for increasing Block Low-Rank compressibility,
+	  which consist of special partitioning of separators that
+	  appear during the nested dissection.
 	  <div class="row"><h1>Multi-precision algorithms</h1>
 	  </div>
 	  In the context of my Post-Doctorat, I am investigating the
-	  use of multi-precision for linear algebra. The objective is
-	  to compute some parts of an algorithm in a reduced
-	  precision, to minimize data movements and energy
-	  consumption. One of the main challenges is to control
-	  numerical properties of algorithms to maintain sufficient
-	  accuracy.
+	  use of multi-precision floatting point operations for linear
+	  algebra. The objective is to compute some parts of an
+	  algorithm in a reduced precision, to minimize data movements
+	  and energy consumption. One of the main challenges is to
+	  control numerical properties of algorithms to maintain
+	  sufficient accuracy.
 	  <div class="row"><h1>Singular value decomposition and eigenvalue problems</h1>
 	  </div>
 	  I have been working on eigenproblems during an internship at
-	    Innovative Computing Laboratory (United States) and a
-	    visit at King Abdullah University of Science and
-	    Technology (Saudi Arabia). We have developed a task-based
-	    version of the Divide & Conquer algorithm to compute
-	    eigenpairs of symmetric tridiagonal matrices, as well as a
-	    task-based version of reduction to band. One open problem
-	    which I am interested on is to implement a full data-flow
-	    eigensolver for heterogeneous architectures.
+	  Innovative Computing Laboratory (United States) and a visit
+	  at King Abdullah University of Science and Technology (Saudi
+	  Arabia). We have developed a task-based version of the
+	  Divide & Conquer algorithm to compute eigenpairs of
+	  symmetric tridiagonal matrices, as well as a task-based
+	  version of reduction of a dense matrix to a band matrix. One
+	  open problem which I am interested on is to implement a full
+	  data-flow eigensolver for heterogeneous architectures.
 	</div>
       </section>
 
