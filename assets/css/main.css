@@ -1622,7 +1622,7 @@ ul.divided li:first-child {
 ul.icons {
     list-style: none;
     padding-left: 0;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 ul.icons > li {
@@ -1896,7 +1896,7 @@ button.alt:active,
 }
 
 #header > .container {
-    padding: 14em 0 7em 0;
+    padding: 10em 0 4em 0;
     border-bottom: solid 2px #e5e5e5;
     box-shadow: inset 0px -8px 0px 0px #fff, inset 0px -10px 0px 0px #e5e5e5;
 }
@@ -2191,7 +2191,7 @@ button.alt:active,
     overflow: hidden;
     border-top: solid 2px #e5e5e5;
     background: #f0f0f0;
-    padding: 6em 0 8em 0;
+    padding: 2em 0 0 0;
 }
 
 #footer form input[type="text"],
@@ -2219,8 +2219,8 @@ button.alt:active,
 #copyright {
     border-top: solid 2px #e5e5e5;
     text-align: center;
-    margin-top: 6em;
-    padding-top: 4em;
+    margin-top: 0em;
+    padding-top: 0em;
 }
 
 /* XLarge */
