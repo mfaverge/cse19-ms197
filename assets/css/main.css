@@ -2068,7 +2068,7 @@ button.alt:active,
     position: relative;
     overflow: hidden;
     background: #fff;
-    text-align: center;
+    text-align: left;
     padding: 6em 0;
 }
 
