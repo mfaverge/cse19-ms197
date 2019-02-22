@@ -249,6 +249,7 @@ br.clear {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    text-align: left;
 }
 
 .row > * {
@@ -1534,7 +1535,8 @@ ul {
 }
 
 ul li {
-    padding-left: 0.5em;
+    padding-left: 0em;
+    text-align: left;
     margin: 0.75em 0 0.75em 0;
 }
 
@@ -1620,14 +1622,14 @@ ul.divided li:first-child {
 ul.icons {
     list-style: none;
     padding-left: 0;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 ul.icons > li {
     display: inline-block;
     position: relative;
     padding: 2em 0 0 3em;
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0;
 }
 
@@ -1910,6 +1912,7 @@ button.alt:active,
 
 #header h1 a {
     border: 0;
+    font-size: 0.8em;
 }
 
 #header p {
@@ -1917,7 +1920,7 @@ button.alt:active,
     font-weight: 400;
     color: #888;
     margin: 2.5em 0 0 0;
-    font-size: 2em;
+    font-size: 1.2em;
     letter-spacing: 3px;
     text-align: center;
 }
